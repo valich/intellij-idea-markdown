@@ -1,7 +1,7 @@
 package org.intellij.plugins.markdown.lang;
 
 import com.intellij.openapi.fileTypes.LanguageFileType;
-import org.intellij.plugins.markdown.bundle.MarkdownBundle;
+import org.intellij.plugins.markdown.MarkdownBundle;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

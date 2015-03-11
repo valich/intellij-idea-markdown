@@ -1,10 +1,13 @@
 package org.intellij.plugins.markdown.lang;
 
 import com.intellij.psi.tree.IElementType;
+import com.intellij.psi.tree.IFileElementType;
 
 import static org.intellij.plugins.markdown.lang.MarkdownElementType.platformType;
 
 public interface MarkdownElementTypes {
+  IFileElementType MARKDOWN_FILE_ELEMENT_TYPE = new IFileElementType(MarkdownLanguage.INSTANCE);
+
   IElementType MARKDOWN_FILE = platformType(org.intellij.markdown.MarkdownElementTypes.MARKDOWN_FILE);
 
   IElementType UNORDERED_LIST = platformType(org.intellij.markdown.MarkdownElementTypes.UNORDERED_LIST);

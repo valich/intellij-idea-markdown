@@ -12,13 +12,12 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiFile;
 import com.intellij.psi.tree.IFileElementType;
 import com.intellij.psi.tree.TokenSet;
+import org.intellij.plugins.markdown.lang.MarkdownElementTypes;
 import org.intellij.plugins.markdown.lang.lexer.MarkdownLexerAdapter;
 import org.intellij.plugins.markdown.lang.psi.impl.MarkdownFile;
 import org.jetbrains.annotations.NotNull;
 
 public class MarkdownParserDefinition implements ParserDefinition {
-
-  protected static final MarkdownFileElementType FILE_ELEMENT_TYPE = new MarkdownFileElementType();
 
   @NotNull
   @Override
@@ -35,7 +34,7 @@ public class MarkdownParserDefinition implements ParserDefinition {
   @NotNull
   @Override
   public IFileElementType getFileNodeType() {
-    return FILE_ELEMENT_TYPE;
+    return MarkdownElementTypes.MARKDOWN_FILE_ELEMENT_TYPE;
   }
 
   @NotNull

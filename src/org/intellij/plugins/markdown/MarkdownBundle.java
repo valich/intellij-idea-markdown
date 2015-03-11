@@ -1,4 +1,4 @@
-package org.intellij.plugins.markdown.bundle;
+package org.intellij.plugins.markdown;
 
 import com.intellij.CommonBundle;
 import org.jetbrains.annotations.NotNull;
