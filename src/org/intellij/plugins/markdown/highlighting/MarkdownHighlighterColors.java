@@ -1,6 +1,5 @@
 package org.intellij.plugins.markdown.highlighting;
 
-import com.intellij.openapi.editor.colors.CodeInsightColors;
 import com.intellij.openapi.editor.colors.TextAttributesKey;
 
 import static com.intellij.openapi.editor.DefaultLanguageHighlighterColors.*;
