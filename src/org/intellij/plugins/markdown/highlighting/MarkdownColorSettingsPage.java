@@ -77,7 +77,7 @@ public class MarkdownColorSettingsPage implements ColorSettingsPage {
 
   @NotNull
   public String getDisplayName() {
-    return MarkdownBundle.message("markdown.file.type.name");
+    return MarkdownBundle.message("markdown.plugin.name");
   }
 
   @NotNull

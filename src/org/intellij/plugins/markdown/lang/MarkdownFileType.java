@@ -17,7 +17,7 @@ public class MarkdownFileType extends LanguageFileType {
   @NotNull
   @Override
   public String getName() {
-    return MarkdownBundle.message("markdown.file.type.name");
+    return "Markdown";
   }
 
   @NotNull
